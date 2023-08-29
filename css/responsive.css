@@ -154,6 +154,10 @@
          color: #181818; 
     }
         
+    .main_menu {
+        height: 300px;
+        overflow-y: auto;
+    }
 }
 
 
