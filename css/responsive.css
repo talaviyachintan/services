@@ -1,0 +1,206 @@
+@media screen and (max-width:1399px){
+    
+}
+
+@media screen and (max-width:1199px){
+    .banner_text h1{
+        font-size: 3rem;
+    }
+    .grid-item {
+        width: 33.33%; 
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:991px){
+    /* .about_imgbg{
+        margin-top: 0;
+    } */
+    
+}
+
+
+@media screen and (max-width:767px){
+    .img_aboutbg{
+        height: 300px !important;
+    }
+    #banner .owl-nav{
+        display: none;
+    }
+    .banner_item{
+        position: relative;
+        min-height: 450px;
+    } 
+    .banner_item img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .banner_text h1{
+        font-size: 2rem;
+    }
+    .grid-item{
+        width: 50%;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:575px){
+    .img_aboutbg{
+        height: 250px !important;
+    }
+    .about_imgtext h1{
+        font-size: 2rem;
+    }
+    .grid-item {
+        width: 70%;
+        left: 50% !important;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+    .login_bg{
+        padding: 15px;
+    }
+}
+@media screen and (max-width:375px){
+    .grid-item{
+        width: 100%;
+    }
+    
+}
+/* @media all and (min-width: 1199px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .dropdown-menu{
+        display: block;
+}
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+} */
+
+   
+@media only screen and (max-width: 1200px) {
+    .main_menu{
+         display: block;
+         box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+    }
+    .main_menu>li::after{
+         content: "";
+         display: none;
+    }
+    .main_menu li{
+         display: block;
+         text-align: left;
+         line-height: 30px;
+         padding: 10px 0;
+         border-bottom: 0;
+    }
+    .main_menu li:last-child {
+         border-bottom: none;
+    }
+    .main_menu li + li {
+         margin-left: 0;
+    }
+    .main_menu li::before{
+         top: 25px;
+         right: 20px;
+    }   
+   
+    .main_menu li:hover > .sub-menu{
+         visibility: visible;
+         height: auto;
+         opacity: 1;
+         border-bottom: none;
+         padding: 10px 0 10px 30px;
+    }       
+    .sub-menu{
+        position: initial;
+        display: block;
+        width: 100%;
+        border-top: none;
+        border-top: 1px solid rgba(0, 0, 0, 0.3);
+        margin-left: 0;
+        visibility: hidden;
+        opacity: 0;
+        height: 0;
+        overflow: hidden;
+        max-height: 250px;
+        overflow-y: scroll;
+        background-color: #f2f2f2;
+        border-bottom: 0 !important;
+        transition: .3s;
+        -webkit-transition: .3s;
+        -moz-transition: .3s;
+        -ms-transition: .3s;
+        -o-transition: .3s;
+        padding: 0;
+        height: 0;
+    }  
+    .main_menu_li>a{
+        padding: 0 20px;
+    }  
+    .sub-menu li{
+         padding: 0;
+    }    
+    .sub-menu li + li{
+         border-top: none;
+    }      
+    .sub-menu li:first-child{
+         border-top: 0;
+    }       
+    .sub-menu li a {
+         color: #181818; 
+    }
+        
+}
+
+
+@media screen and (max-width:991px){
+    
+    .blog_card_bg .blog_img_bg,
+    .blog_text{
+        width: 100%;
+    }
+    .blog_text{
+        padding-left: 0;
+        padding-top: 10px;
+    }
+    .blog_card_bg{
+        display: block;
+    }
+    #blog_page_card{
+        display: flex;
+    }
+    #blog_page_card .blog_text{
+        padding-left: 10px;
+    }
+    #blog_page_card .blog_img_bg{
+        width: 49%;
+    }
+    #blog_page_card .blog_text{
+        width: 51%;
+    }
+}
+
+
+@media screen and (max-width:768px){
+    
+    #blog_page_card .blog_img_bg{
+        width: 100%;
+    }
+    #blog_page_card .blog_text{
+        width: 100%;
+    }
+    #blog_page_card .blog_text{
+        padding-left: 0;
+        padding-top: 10px;
+    }
+    #blog_page_card{
+        display: block;
+    }
+    .blog_card_bg{
+        margin: 0;
+    }
+}
